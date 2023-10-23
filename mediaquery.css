@@ -66,6 +66,11 @@
         height: 40px;
         cursor: pointer;
     }
+    .home .scroll-down i{
+        position: absolute;
+        bottom: 0;
+        margin-bottom: 50px;
+    }
 
     .home .home-container .info{
         font-size: 0.85rem;
@@ -74,5 +79,16 @@
         display: grid;
         row-gap: 20px;
         width: 100%;
+    }
+    
+    .about-info{
+        min-width: 0;
+        width: 100%;
+    }
+    .about-info .professional-list{
+        flex-direction: column;
+    }
+    .about-info .professional-list .list-item{
+        justify-content: start;
     }
 }

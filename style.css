@@ -230,7 +230,6 @@ header.sticky .nav-bar{
     transform: translate(0, 0);
 }
 .home .scroll-down i{
-    margin-top: 80px;
     color: var(--third-color);
     font-size: 1.2em;
     padding: 5px;
@@ -483,7 +482,7 @@ header.sticky .nav-bar{
     width: 70%;
 }
 .bar .jquery:before{
-    background: #c9184a;
+    background: #15616d;
     width: 55%;
 }
 .bar .php:before{
