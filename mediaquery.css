@@ -4,6 +4,10 @@
     .section{
         padding: 6rem 2rem 2rem;
     }
+    .home-container .media-icons{
+        flex-direction: row;
+        gap: 50px;
+    }
 
 
 
