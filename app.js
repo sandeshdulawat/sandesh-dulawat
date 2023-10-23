@@ -151,7 +151,6 @@ ScrollReveal({
 });
 
 
-ScrollReveal().reveal('.nav-bar a, .nav-bar img', { delay: 20, origin: 'top', reset: false});
 ScrollReveal().reveal('.section-title-01', { delay: 20, origin: 'top', distance: '10px'});
 
 ScrollReveal().reveal('.home .info h2, .skills-description', { delay: 250, origin: 'left'});
