@@ -1,6 +1,12 @@
 @media screen and (max-width: 1070px){
 
 
+    .section{
+        padding: 6rem 2rem 2rem;
+    }
+
+
+
     .navigation{
         position: fixed;
         width: 100%;
@@ -74,6 +80,9 @@
 
     .home .home-container .info{
         font-size: 0.85rem;
+    }
+    .home .home-container{
+        flex-direction: column;
     }
     .about .container .content{
         display: grid;
