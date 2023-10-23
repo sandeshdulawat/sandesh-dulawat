@@ -65,7 +65,14 @@
         width: 40px;
         height: 40px;
         cursor: pointer;
-
     }
 
+    .home .home-container .info{
+        font-size: 0.85rem;
+    }
+    .about .container .content{
+        display: grid;
+        row-gap: 20px;
+        width: 100%;
+    }
 }
