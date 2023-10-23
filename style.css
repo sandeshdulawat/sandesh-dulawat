@@ -7,6 +7,7 @@
     --second-color: #0582ca;
     --third-color: #777;
 
+    --btn-color: #0582ca;
     --hover-color: #006494;
     
     --body-bg--color: #fefefe;
@@ -37,7 +38,8 @@
     --second-color: #111111;
     --third-color: #777;
     
-    --hover-color: #262626;
+    --btn-color: #646464;
+    --hover-color: #292929;
     
     --body-bg--color: #000000;
     --card-bg-color: #0b0b0b;
@@ -56,9 +58,6 @@
     --heading--color: #ffffff;
     --i-hover-color: #00405e;
 }
-
-
-
 
 *{
     margin: 0;
@@ -208,7 +207,7 @@ header.sticky .nav-bar{
     max-width: 350px;
 }
 .btn{
-    background: var(--second-color);
+    background: var(--btn-color);
     color: #fff;
     font-size: var(--normal-font-size);
     font-weight: 500;
