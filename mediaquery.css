@@ -1,16 +1,5 @@
 @media screen and (max-width: 1070px){
 
-
-    .section{
-        padding: 6rem 2rem 2rem;
-    }
-    .home-container .media-icons{
-        flex-direction: row;
-        gap: 50px;
-    }
-
-
-
     .navigation{
         position: fixed;
         width: 100%;
@@ -63,6 +52,7 @@
         left: 0;
         margin: 10px;
     }
+    
 
     .nav-close-btn{
         position: absolute;
@@ -79,15 +69,13 @@
     .home .scroll-down i{
         position: absolute;
         bottom: 0;
-        margin-bottom: 50px;
+        margin-bottom: 60px;
     }
 
     .home .home-container .info{
         font-size: 0.85rem;
     }
-    .home .home-container{
-        flex-direction: column;
-    }
+    
     .about .container .content{
         display: grid;
         row-gap: 20px;
@@ -104,4 +92,49 @@
     .about-info .professional-list .list-item{
         justify-content: start;
     }
+
+
+    .skills-info{
+        grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    }
+
+}
+
+
+@media screen and (max-width: 730px){
+
+    .section{
+        padding: 6rem 2rem 2rem;
+    }
+    .section-title-01{
+        font-size: 2.5em;
+    }
+
+    .home .home-container{
+        display: grid;
+    }
+    .home-container .home-img{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        top: 0;
+    }
+    .home-container .home-img img{
+        width: 65%;
+        margin: 50px 0;
+        transform: translateX(-20px);
+    }
+    .home .home-container .info{
+        margin-top: 200px;
+        font-size: .8rem;
+    }
+    .home-container .media-icons{
+        display: none;
+    }
+    .home .scroll-down i{
+        position: absolute;
+        bottom: 0;
+        margin-bottom: 30px;
+    }
+    
 }

@@ -230,6 +230,9 @@ header.sticky .nav-bar{
     transform: translate(0, 0);
 }
 .home .scroll-down i{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 60px;
     color: var(--third-color);
     font-size: 1.2em;
     padding: 5px;
