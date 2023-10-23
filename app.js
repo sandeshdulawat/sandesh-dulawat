@@ -117,3 +117,20 @@ if(savedTheme){
     document.body.classList[savedTheme === "dark" ? "add" : "remove"]("dark-theme")
     themeBtn.classList[savedIcon === "sun" ? "add" : "remove"]("sun");
 }
+
+
+
+// responsive navbar
+
+
+const menuBtn = document.querySelector(".nav-menu-btn")
+const closeBtn = document.querySelector(".nav-close-btn")
+const navigation = document.querySelector(".navigation")
+
+menuBtn.addEventListener("click", () => {
+    navigation.classList.add("active");
+});
+
+closeBtn.addEventListener("click", () => {
+    navigation.classList.remove("active");
+});

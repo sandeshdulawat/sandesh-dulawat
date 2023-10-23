@@ -157,7 +157,9 @@ header.sticky .nav-bar{
 .nav-items a.active{
     color: var(--second-color);
 }
-
+.nav-menu-btn{
+    display: none;
+}
 
 
 .home{
@@ -859,6 +861,11 @@ footer{
     cursor: pointer;
 }
 
-.theme-btn .fa-sun{
+.theme-btn .fa-sun, .theme-btn.sun .fa-moon{
     display: none;
 }
+.theme-btn.sun .fa-sun{
+    display: block;
+}
+
+
