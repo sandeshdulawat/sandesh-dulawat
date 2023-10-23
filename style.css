@@ -252,7 +252,7 @@ header.sticky .nav-bar{
     height: 3px;
     right: 0;
     bottom: 0;
-    background: var(--second-color);
+    /* background: var(--second-color); */
 }
 
 .flex-center{
