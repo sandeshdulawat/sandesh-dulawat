@@ -156,7 +156,7 @@ ScrollReveal().reveal('.section-title-01', { delay: 20, origin: 'top', distance:
 ScrollReveal().reveal('.home .info h2, .skills-description', { delay: 250, origin: 'left'});
 ScrollReveal().reveal('.home .info h3, .home .info p', { delay: 250, origin: 'left'});
 ScrollReveal().reveal('.home .info .btn, .about-info', { delay: 250, origin: 'left'});
-ScrollReveal().reveal('.home .home-img', { delay: 250, origin: 'right'});
+ScrollReveal().reveal('.home .home-img', { delay: 250});
 ScrollReveal().reveal('.home .media-icons', { delay: 200, origin: 'left'});
 ScrollReveal().reveal('.education', { interval: 200});
 
