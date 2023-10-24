@@ -160,4 +160,4 @@ ScrollReveal().reveal('.home .home-img', { delay: 250, origin: 'right'});
 ScrollReveal().reveal('.home .media-icons', { delay: 200, origin: 'left'});
 ScrollReveal().reveal('.education', { interval: 200});
 
-ScrollReveal().reveal('.img-card-container, .service-container', { interval: 200 });
+ScrollReveal().reveal('.service-card', { interval: 200 });
