@@ -879,3 +879,8 @@ footer{
 }
 
 
+.footer-copyright1{
+    padding: 10px;
+    font-size: .8rem;
+    opacity: .5;
+}
