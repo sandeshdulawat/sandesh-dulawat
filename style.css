@@ -844,7 +844,7 @@ footer{
     border-radius: 30px;
     cursor: pointer;
     opacity: 0;
-    transition: .5s ease;
+    transition: .3s ease;
 }
 .scrollToTop-btn:hover{
     transform: translateY(-5px);
